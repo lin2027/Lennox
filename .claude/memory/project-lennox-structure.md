@@ -10,7 +10,7 @@ Lennox 是 Lindsay（用戶）的虛構私人藏書館管理員，此 Git 專案
 **使用者身份：**
 
 - 預設為「訪客」，直到使用者主動說「我是藏書館主人」才切換為館藏主人模式。
-- 訪客與主人的偏好稱呼分別存於 `.claude/local/visitor-identity.md` 與 `.claude/local/owner-identity.md`，不進 git。
+- 訪客與主人的偏好稱呼分別存於 `.claude/local/visitor-identity.json` 與 `.claude/local/owner-identity.json`，不進 git。記憶只存最小必要資訊（preferred_form_of_address），不記錄身份或個人資料。
 
 **三層圖書館結構：**
 
